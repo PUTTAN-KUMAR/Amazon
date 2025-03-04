@@ -1,0 +1,416 @@
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: 0px;
+    margin: 0px;
+    padding: 0px;
+    color: #ccc;
+
+
+}
+.navbar{
+    height: 65px;
+    background-color: rgb(13, 19, 17);
+    color: rgb(226, 236, 228);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media only screen and(max-width:395px) {
+    
+}
+.nav-logo{
+    height: 50px;
+    width: 100px ;
+    align-items: center;
+
+}
+.logo{
+    background-image:url(AMZN_BIG.D-8fb0be81.png);
+    background-size: cover;
+    height: 30px;
+    width: 100px; 
+    align-items: center;
+}
+.border{
+    border: 1.5px solid transparent;
+
+   }
+.border:hover{ 
+     border: 1.5px solid white;
+}
+.add-first{
+    color: aliceblue;
+    font-size: 0.85rem;
+    margin-left: 20px;
+
+}
+.add-second{
+    font: size 1rem;;
+    margin-left: 5px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+/* box 3 */
+
+.nev-search{
+    margin-left: 15px;
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: antiquewhite;
+    width: 100px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(249, 225, 11);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:rgb(35, 31, 31);
+ 
+}
+.nev-india{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    background-size: cover;
+    height: 20px;
+    width: 10px;
+    background-image: url(c:/Users/putta/Downloads/indian-flag.png);
+}
+/* box four */
+span{
+font-size: 1rem;
+}
+.nav-second{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.nav-cart i {
+    font-size: 30px;
+    
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel{
+    height: 40px;
+    background-color: #06192d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+    color: brown;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+
+}
+/* hero-section */
+.hero-section{
+    background-image: url(J24_GW_PC_non-prime_RNP--unrec_end-frame_Shop-now_2X_R1._CB562558129_.jpg);
+   background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+    
+}
+.hero-msg a {
+    color: #007185;
+/* yaha p ancer tagg ko color dena  h  */
+}
+.shop-section{
+    background-color: rgb(248, 212, 102);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.shop-section>h3{
+    color: red;
+}
+.shop-section1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: peru;
+    padding: 40px;
+    border-width: 100px;
+    border-right: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    background: color #e2e7e6; ;
+}
+
+.box{
+    border: 2px solid white;
+height: 400px;
+width: 23%;
+background-color: white;
+mask-repeat: no-repeat;
+
+}
+.box1{
+    border: 2px solid white;
+height: 400px;
+width: 20%;
+background-color: white;
+background-repeat: no-repeat;
+}
+.box2{
+    border: 2px solid rgb(251, 246, 246);
+height: 400px;
+width: 20%;
+background-color: white;
+}
+.box3{
+    border: 2px solid white;
+height: 400px;
+width: 20%;
+background-color: white; 
+}
+.box4{
+    border: 2px solid white;
+    height: 400px;
+    width: 20%;
+    background-color: white;
+}
+.box5{
+    border: 2px solid white;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
+.shop-section2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(138, 230, 63);
+    padding: 40px;
+    border-width: 100px;
+    border-right: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    background: color #e2e7e6; ;
+}
+.box1{
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
+.box2{
+    border: 2px solid white;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
+.box3{
+    border: 2px solid white;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
+.box4{
+    border: 2px solid white;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
+.footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: rgb(43, 52, 76);
+    color: white;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+}
+.foot-panel2{
+    
+    background-color: #596169;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+display: flex;
+font-size: 0.85rem;
+margin-top: 10px;
+color: #dddddd;
+}
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+   
+}
+
+.logo {
+    background-image: url(AMZN_BIG.D-8fb0be81.png);
+    background-size: cover;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    height: 250px;
+    padding-left: 200px;
+    
+   
+}
+.foot-panel4 ul{
+    padding-left: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    
+}
+ .f1 .border{
+    color: white;
+   background-color: white;
+ }
+ .input{
+    align-content: center;
+    margin-right: 2px;
+ }   
+ 
+ .foot-panel3 li {
+    display: flex;
+    padding-left: 120px;
+   border: #007185;
+    font-weight: bold;
+    
+
+ }  
+ .pages{
+    background-color: #0f1111;
+   height: 100px;
+   color: white;
+   justify-content: center;
+   align-items: center;
+   padding-left: 620px;
+ }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+
+        }
+        .container{
+            width: 50%;
+            margin: 50px;
+            background-color: rgb(55, 99, 232);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px ;
+        } 
+        h2{
+            text-align: center
+        
+        } 
+        .form-process{
+            margin-bottom: 15px;
+            
+        }    
+        .form-process label{
+            display: block;
+             margin-bottom: 5px;
+             font-weight: bold;
+        } 
+        .form-process input,
+        .form-process select,
+        .form-process textarea{
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+
+        }  
+        .form-process input[type ="radio"]{
+            width: auto;
+
+        }
+        .form-process .gender{
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .submit-btn{
+            display: inline-block;
+            background-color: #003366;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%
+
+        }
+        .submit-btn:hover{
+            background-color: #0055a5;
+        }
+        
+
+ 
